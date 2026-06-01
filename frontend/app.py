@@ -26,11 +26,11 @@ CLASS_META = {
         'glow':     'rgba(249,115,22,0.35)',
         'border':   '#7C3000',
         'icon':     '⚠',
-        'icd':      'B67.0',
-        'action':   'Administer anticoccidial agents immediately. Isolate affected flock segment. Increase litter monitoring frequency to every 4 hours.',
+        'icd':      'A78.0',
+        'action':   'Administer Amprolium Powder immediately. Isolate affected flock segment. Increase litter monitoring frequency to every 4 hours.',
         'transmission': 'Fecal-oral / Oocysts',
         'incubation':   '4 – 7 days',
-        'mortality':    'Up to 30% if untreated',
+        'mortality':    '5 to 20%',
     },
     'Healthy': {
         'code':     'CLR-0',
@@ -54,11 +54,11 @@ CLASS_META = {
         'glow':     'rgba(239,68,68,0.40)',
         'border':   '#7F1D1D',
         'icon':     '✕',
-        'icd':      'B34.8',
-        'action':   'IMMEDIATE veterinary notification required. Initiate flock quarantine. Report to PDMA within 2 hours per regulatory mandate. Do not move birds.',
+        'icd':      'B30.8',
+        'action':   'NO CURE. Lasota Vaccine (Prevention) + Electrolytes & Antibiotics. Initiate flock quarantine.',
         'transmission': 'Airborne / Direct contact',
         'incubation':   '2 – 15 days',
-        'mortality':    'Up to 100% in naive flocks',
+        'mortality':    '80 to 100%',
     },
     'Salmonella': {
         'code':     'SAL-3',
@@ -69,10 +69,10 @@ CLASS_META = {
         'border':   '#4C1D95',
         'icon':     '⚠',
         'icd':      'A02.0',
-        'action':   'Contact veterinarian for antibiotic susceptibility testing. Review biosecurity and water sanitation. Mandatory food-chain notification if birds are near processing age.',
-        'transmission': 'Fecal-oral / Contaminated feed',
+        'action':   'Contact veterinarian for ciprofloxacin dosage. Review biosecurity and water sanitation. .',
+        'transmission': 'Vertically integrated / Contaminated feed',
         'incubation':   '6 – 72 hours',
-        'mortality':    '5 – 20% in young chicks',
+        'mortality':    '50 to 100%',
     }
 }
 
@@ -785,7 +785,7 @@ model = load_model()
 # Top bar
 st.markdown("""
 <div class="pnp-topbar">
-    <div class="pnp-logo">PANOPTICON<span> · AVIAN DIAGNOSTICS</span></div>
+    <div class="pnp-logo">PANOPTICON<span> · POULTRY DIAGNOSTICS</span></div>
     <div class="pnp-status-pill">
         <div class="pnp-status-dot"></div>
         SYSTEM ONLINE
@@ -798,7 +798,7 @@ st.markdown("""
 st.markdown("""
 <div class="pnp-hero">
     <div class="pnp-hero-eyebrow">// AI-POWERED FLOCK HEALTH SURVEILLANCE</div>
-    <div class="pnp-hero-title">Rapid Avian<br><em>Disease Diagnosis</em></div>
+    <div class="pnp-hero-title">Rapid Poultry<br><em>Disease Diagnosis</em></div>
     <div class="pnp-hero-sub">
         Upload a fecal sample image from your commercial broiler shed.
         Panopticon's deep learning engine delivers a clinical-grade
@@ -1000,7 +1000,7 @@ st.markdown("""
 <div class="pnp-footer">
     <div class="pnp-footer-text">
         PANOPTICON · Avian Diagnostics Platform<br>
-        Pakistan Commercial Broiler Industry · MobileNetV2 · TensorFlow
+        Deployed for Commercial Broiler Industry • Powered by TensorFlow & MobileNetV2
     </div>
     <div class="pnp-footer-disclaimer">
         FOR RESEARCH AND ACADEMIC USE ONLY.<br>
