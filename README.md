@@ -1,4 +1,4 @@
-# 🐔 Panopticon — AI Avian Disease Diagnostics
+# 🐔 Panopticon AI Avian Disease Diagnostics
 
 An AI-powered poultry disease detection system for Pakistan's commercial 
 broiler industry. Classifies fecal sample images into 4 disease categories 
@@ -8,7 +8,7 @@ using a fine-tuned MobileNetV2 model.
 🔗 https://huggingface.co/spaces/MuqsitAlam/AI-Project
 
 ## Model Performance
-- Architecture: MobileNetV2 (Transfer Learning)
+- Architecture: MobileNetV2 
 - Test Accuracy: 96.42%
 - Classes: Coccidiosis, Healthy, NewCastle, Salmonella
 
