@@ -3,7 +3,10 @@
 **Source:** Kaggle — Poultry Disease Image Dataset  
 **Link:** [(https://www.kaggle.com/datasets/kausthubkannan/poultry-diseases-detection)
 https://www.kaggle.com/datasets/allandclive/chicken-disease-1
-https://www.kaggle.com/datasets/muhammadmaazsayyed/chicken-disease-dataset]
+https://www.kaggle.com/datasets/muhammadmaazsayyed/chicken-disease-dataset
+
+My Preprocessed DataSet
+https://www.kaggle.com/datasets/abdulmuqsitalam/poultry-disease-fecal-image-dataset/data]
 
 ## Stats
 - Total Images: [21033]
