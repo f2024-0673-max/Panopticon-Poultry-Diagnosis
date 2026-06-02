@@ -23,7 +23,10 @@ using a fine-tuned MobileNetV2 model.
 Sourced from Kaggle — Poultry Disease Dataset  
 Link: [(https://www.kaggle.com/datasets/allandclive/chicken-disease-1)
  https://www.kaggle.com/datasets/muhammadmaazsayyed/chicken-disease-dataset
-  https://www.kaggle.com/datasets/kausthubkannan/poultry-diseases-detection]
+  https://www.kaggle.com/datasets/kausthubkannan/poultry-diseases-detection
+  
+  Preprocessed Dataset
+  https://www.kaggle.com/datasets/abdulmuqsitalam/poultry-disease-fecal-image-dataset/data]
 
 ## Tech Stack
 Python · TensorFlow · Keras · Streamlit · FastAPI · HuggingFace Spaces
