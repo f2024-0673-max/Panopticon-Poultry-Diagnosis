@@ -1,5 +1,6 @@
-streamlit
+fastapi
+uvicorn
 tensorflow
 pillow
 numpy
-plotly
+python-multipart
